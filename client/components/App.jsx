@@ -15,6 +15,9 @@ function App() {
           <Route path="/teams" element={<Teams />} />
         </Routes>
       </main>
+      <h2 className="m-4 text-center">
+        This website was <strike>not</strike> made by Patrick Ryan
+      </h2>
     </>
   )
 }
