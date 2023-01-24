@@ -1,36 +1,31 @@
 import React, { useState } from 'react'
 
-import { addFruit } from '../api'
-import { useAuth0 } from '@auth0/auth0-react'
+import { addPlayer } from '../api'
 
-function AddFruit({ setFruits, closeAddForm, setError }) {
-  const { getAccessTokenSilently } = useAuth0()
-  const [newFruit, setNewFruit] = useState(false)
+function AddPlayer({ setPlayers, closeAddForm, setError }) {
+  const [newPlayer, setNewPlayer] = useState(false)
 
   const handleAddChange = (e) => {
     const { name, value } = e.target
-    setNewFruit({
-      ...newFruit,
+    setNewPlayer({
+      ...newPlayer,
       [name]: value,
     })
   }
 
   const handleAdd = async (e) => {
     e.preventDefault()
-    const fruit = { ...newFruit }
-    getAccessTokenSilently()
-      .then((token) => addFruit(fruit, token))
-      .then(setFruits)
+    addPlayer(newPlayer)
       .then(closeAddForm)
       .catch((err) => setError(err.message))
   }
 
-  const { name: addingName, averageGramsEach: addingGrams } = newFruit
+  const { name: addingName, bracket: addingBracket } = newPlayer
 
   return (
     <>
       <main className="shadow-lg rounded-lg p-4">
-        <h2 className="text-2xl my-4 uppercase">Add new fruit</h2>
+        <h2 className="text-2xl my-4 uppercase">Add new player</h2>
         <form
           onSubmit={handleAdd}
           className="flex flex-col justify-start gap-1"
@@ -52,12 +47,12 @@ function AddFruit({ setFruits, closeAddForm, setError }) {
             />
           </label>
           <label className="grid grid-cols-2 gap-2">
-            Average Grams Each:
+            Bracket:
             <input
               type="text"
-              name="averageGramsEach"
-              aria-label="adding-grams"
-              value={addingGrams || ''}
+              name="bracket"
+              aria-label="adding-bracket"
+              value={addingBracket || ''}
               onChange={handleAddChange}
               className="mx-4 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
       focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
@@ -70,7 +65,7 @@ function AddFruit({ setFruits, closeAddForm, setError }) {
             type="submit"
             className="rounded-2xl bg-blue-800 hover:bg-blue-600 text-white p-2 px-4 w-fit"
           >
-            Add fruit
+            Add player
           </button>
           <button
             type="button"
@@ -85,4 +80,4 @@ function AddFruit({ setFruits, closeAddForm, setError }) {
   )
 }
 
-export default AddFruit
+export default AddPlayer

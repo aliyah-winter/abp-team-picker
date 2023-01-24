@@ -1,9 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit'
-import fruits from './fruits'
+import players from './players'
 
 const store = configureStore({
   reducer: {
-    fruits,
+    players,
   },
 })
 

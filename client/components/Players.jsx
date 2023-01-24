@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react'
 
-import SelectedFruit from './SelectedFruit'
-import AddFruit from './AddFruit'
+import { getPlayers } from '../api'
+import AddPlayer from './AddPlayer'
+import Teams from './Teams'
 
-import { getFruits } from '../api'
-
-function Fruits() {
+function Players() {
   const [error, setError] = useState('')
-  const [fruits, setFruits] = useState([])
+  const [players, setPlayers] = useState([])
   const [adding, setAdding] = useState(false)
+  const [sorting, setSorting] = useState(false)
   const [selected, setSelected] = useState(null)
 
   function hideError() {
@@ -24,43 +24,41 @@ function Fruits() {
     setAdding(false)
   }
 
-  function setSelectHandler(fruit, e) {
-    e.preventDefault()
-    setSelected(fruit)
-  }
+  // function setSelectHandler(player, e) {
+  //   e.preventDefault()
+  //   console.log(e.target)
+  //   setSelected(player)
+  // }
 
-  function clearSelected() {
-    setSelected(null)
-  }
+  // function clearSelected() {
+  //   setSelected(null)
+  // }
 
   useEffect(() => {
-    getFruits()
-      .then((remoteFruits) => setFruits(remoteFruits))
+    getPlayers()
+      .then((remotePlayers) => setPlayers(remotePlayers))
       .catch((err) => setError(err.message))
   }, [])
-
   return (
     <section className="flex flex-col gap-4 items-center justify-center h-screen">
       <div onClick={hideError}>{error && `Error: ${error}`}</div>
-
       <ul className="p-4 shadow-2xl rounded-xl">
-        {fruits.map((fruit) => (
-          <li key={fruit.id}>
+        {players.map((player) => (
+          <li key={player.id}>
             <button
               href="#"
-              onClick={(e) => setSelectHandler(fruit, e)}
+              onClick={(e) => setSelectHandler(player, e)}
               className="text-purple-700 hover:text-purple-500"
             >
-              {fruit.name}
+              {player.name}, {player.bracket}
             </button>
           </li>
         ))}
       </ul>
-
       {adding ? (
-        <AddFruit
+        <AddPlayer
           setError={setError}
-          setFruits={setFruits}
+          setPlayers={setPlayers}
           closeAddForm={closeAddForm}
         />
       ) : (
@@ -69,20 +67,30 @@ function Fruits() {
           onClick={openAddForm}
           className="rounded-2xl bg-blue-800 hover:bg-blue-600 text-white p-2 px-4"
         >
-          Add a Fruit
+          Add a Player
         </button>
       )}
-
-      {selected && (
+      {sorting ? (
+        <Teams players={players} />
+      ) : (
+        <button
+          href="#"
+          onClick={() => setSorting(true)}
+          className="rounded-2xl bg-blue-800 hover:bg-blue-600 text-white p-2 px-4"
+        >
+          Randomise
+        </button>
+      )}
+      {/* {selected && (
         <SelectedFruit
           selected={selected}
           clearSelected={clearSelected}
           setError={setError}
           setFruits={setFruits}
         />
-      )}
+      )} */}
     </section>
   )
 }
 
-export default Fruits
+export default Players

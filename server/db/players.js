@@ -7,12 +7,6 @@ module.exports = {
   deletePlayer,
 }
 
-// function sort(fruitArray) {
-//   const allFruits = [...fruitArray]
-//   allFruits.sort((a, b) => a.id - b.id)
-//   return allFruits
-// }
-
 function getPlayers(db = connection) {
   return db('players').select()
 }
@@ -22,7 +16,7 @@ function getPlayersByBracket(bracket, db = connection) {
 }
 
 function addPlayer(player, db = connection) {
-  return db('players').insert(player).then(getPlayers)
+  return db('players').insert(player)
 }
 
 function deletePlayer(id, db = connection) {

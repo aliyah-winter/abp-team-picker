@@ -1,18 +1,14 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Nav from './Nav'
-import Fruits from './Fruits'
-import Profile from './Profile'
+import Players from './Players'
 
 function App() {
   return (
     <>
-      <Nav />
       <main className="flex items-center justify-center h-screen">
         <Routes>
-          <Route path="/" element={<Fruits />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/" element={<Players />} />
         </Routes>
       </main>
     </>
