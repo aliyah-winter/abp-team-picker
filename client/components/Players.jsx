@@ -4,7 +4,6 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { fetchPlayers } from '../slices/players'
 import AddPlayer from './AddPlayer'
-import Teams from './Teams'
 
 function Players() {
   const dispatch = useDispatch()
