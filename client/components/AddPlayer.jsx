@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
+import { postPlayerThenFetch } from '../slices/players'
 
-import { addPlayer } from '../api'
-
-function AddPlayer({ setPlayers, closeAddForm, setError }) {
+function AddPlayer({ closeAddForm }) {
+  const dispatch = useDispatch()
   const [newPlayer, setNewPlayer] = useState(false)
 
   const handleAddChange = (e) => {
@@ -12,16 +13,14 @@ function AddPlayer({ setPlayers, closeAddForm, setError }) {
       [name]: value,
     })
   }
-
+  console.log(newPlayer)
   const handleAdd = async (e) => {
     e.preventDefault()
-    addPlayer(player)
-      .then(setPlayers)
-      .then(closeAddForm)
-      .catch((err) => setError(err.message))
+    dispatch(postPlayerThenFetch(newPlayer))
+    closeAddForm()
   }
 
-  const { name: addingName, bracket: addingBracket } = newPlayer
+  const { name: addingName } = newPlayer
 
   return (
     <>
@@ -49,18 +48,44 @@ function AddPlayer({ setPlayers, closeAddForm, setError }) {
           </label>
           <label className="grid grid-cols-2 gap-2">
             Bracket:
-            <input
-              type="text"
-              name="bracket"
-              aria-label="adding-bracket"
-              value={addingBracket || ''}
-              onChange={handleAddChange}
-              className="mx-4 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+            <div onChange={handleAddChange}>
+              <input
+                type="radio"
+                name="bracket"
+                aria-label="adding-bracket"
+                value="A"
+                className="mx-4 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
       focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
       disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
       invalid:border-pink-500 invalid:text-pink-600
       focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
-            />
+              />
+              A
+              <input
+                type="radio"
+                name="bracket"
+                aria-label="adding-bracket"
+                value="B"
+                className="mx-4 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+      focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-pink-500 invalid:text-pink-600
+      focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+              />
+              B
+              <input
+                type="radio"
+                name="bracket"
+                aria-label="adding-bracket"
+                value="C"
+                className="mx-4 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+      focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+      disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+      invalid:border-pink-500 invalid:text-pink-600
+      focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+              />
+              C
+            </div>
           </label>
           <button
             type="submit"

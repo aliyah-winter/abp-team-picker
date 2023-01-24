@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
+import { useSelector } from 'react-redux'
 import Team from './Team'
 
-function Teams({ players }) {
+function Teams() {
+  const players = useSelector((state) => state.players)
   const [teams, setTeams] = useState([])
   function createTeams(players, numOfTeams) {
     const aPlayers = players.filter((player) => player.bracket === 'A')

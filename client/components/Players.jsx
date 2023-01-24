@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
-// import { getPlayers } from '../api'
+import { Link } from 'react-router-dom'
 import { fetchPlayers } from '../slices/players'
 import AddPlayer from './AddPlayer'
 import Teams from './Teams'
@@ -10,9 +10,7 @@ function Players() {
   const dispatch = useDispatch()
   const players = useSelector((state) => state.players)
   const [error, setError] = useState('')
-  // const [players, setPlayers] = useState([])
   const [adding, setAdding] = useState(false)
-  const [sorting, setSorting] = useState(false)
   const [selected, setSelected] = useState(null)
 
   function hideError() {
@@ -58,11 +56,7 @@ function Players() {
         ))}
       </ul>
       {adding ? (
-        <AddPlayer
-          setError={setError}
-          setPlayers={setPlayers}
-          closeAddForm={closeAddForm}
-        />
+        <AddPlayer setError={setError} closeAddForm={closeAddForm} />
       ) : (
         <button
           href="#"
@@ -72,17 +66,14 @@ function Players() {
           Add a Player
         </button>
       )}
-      {sorting ? (
-        <Teams players={players} />
-      ) : (
+      <Link to="/teams">
         <button
           href="#"
-          onClick={() => setSorting(true)}
           className="rounded-2xl bg-blue-800 hover:bg-blue-600 text-white p-2 px-4"
         >
-          Randomise
+          Make Teams!
         </button>
-      )}
+      </Link>
       {/* {selected && (
         <SelectedFruit
           selected={selected}
