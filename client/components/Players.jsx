@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 
-import { getPlayers } from '../api'
+// import { getPlayers } from '../api'
+import { fetchPlayers } from '../slices/players'
 import AddPlayer from './AddPlayer'
 import Teams from './Teams'
 
 function Players() {
+  const dispatch = useDispatch()
+  const players = useSelector((state) => state.players)
   const [error, setError] = useState('')
-  const [players, setPlayers] = useState([])
+  // const [players, setPlayers] = useState([])
   const [adding, setAdding] = useState(false)
   const [sorting, setSorting] = useState(false)
   const [selected, setSelected] = useState(null)
@@ -35,9 +39,7 @@ function Players() {
   // }
 
   useEffect(() => {
-    getPlayers()
-      .then((remotePlayers) => setPlayers(remotePlayers))
-      .catch((err) => setError(err.message))
+    dispatch(fetchPlayers())
   }, [])
   return (
     <section className="flex flex-col gap-4 items-center justify-center h-screen">

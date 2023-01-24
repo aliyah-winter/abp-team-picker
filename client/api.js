@@ -23,9 +23,9 @@ export function addPlayer(player) {
     .catch((err) => err.message)
 }
 
-export function deletePlayer(id) {
+export function deletePlayer(selectedPlayer) {
   return request
-    .delete(`${rootUrl}/player/${id}`)
-    .then((res) => res.body.players)
+    .delete(rootUrl)
+    .send(selectedPlayer)
     .catch((err) => err.message)
 }

@@ -15,7 +15,8 @@ function AddPlayer({ setPlayers, closeAddForm, setError }) {
 
   const handleAdd = async (e) => {
     e.preventDefault()
-    addPlayer(newPlayer)
+    addPlayer(player)
+      .then(setPlayers)
       .then(closeAddForm)
       .catch((err) => setError(err.message))
   }
