@@ -26,7 +26,7 @@ function Teams() {
   useEffect(() => {
     setTeams(createTeams(players, 5))
   }, [])
-
+  console.log(teams)
   return teams.map((team, teamIdx) => (
     <Team key={team[0].id} team={team} teamIdx={teamIdx} />
   ))
