@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Players from './Players'
 import Teams from './Teams'
 import Nav from './Nav'
+import Calendar from './Calendar'
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <Nav />
       <main className="flex items-center justify-center h-screen">
         <Routes>
-          <Route path="/" element={<Players />} />
+          <Route path="/" element />
           <Route path="/teams" element={<Teams />} />
-          <Route path="/calendar" element />
+          <Route path="/calendar" element={<Calendar />} />
           <Route path="/results" element />
           <Route path="/stats" element />
         </Routes>
