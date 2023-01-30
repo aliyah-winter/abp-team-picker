@@ -3,7 +3,7 @@ import React from 'react'
 function Calendar() {
   return (
     <>
-      <ul className=" flex-col justify-center items-center mx-4 p-4 shadow-2xl shadow-purple-500 rounded-xl bg-purple-100">
+      <ul className="mx-4 p-4 shadow-2xl shadow-purple-500 rounded-xl bg-purple-100">
         <li>Week 1</li>
         <br></br>
         <li>18:30 | Team 1 vs Team 4</li>

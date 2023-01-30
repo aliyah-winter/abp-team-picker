@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Nav />
-      <main className="flex items-center justify-evenly h-screen">
+      <main className="flex-col items-center justify-between h-screen">
         <Routes>
           <Route path="/" element />
           <Route path="/teams" element={<Teams />} />

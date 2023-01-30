@@ -7,7 +7,7 @@ function Nav() {
     <>
       <section className="bg-purple-600 text-white flex justify-center items-center">
         <Emoji symbol={'🛻'} label={'truck'} />
-        <h1 className="mx-4 text-6xl font-heading">AUCKLAND BIKE POLO</h1>
+        <h1 className="mx-4 text-6xl font-heading">ABP 2023</h1>
         <Emoji symbol={'🛻'} label={'truck'} />
       </section>
       <section className="bg-green-300">
