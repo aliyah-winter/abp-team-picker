@@ -13,6 +13,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Players />} />
           <Route path="/teams" element={<Teams />} />
+          <Route path="/calendar" element />
+          <Route path="/results" element />
+          <Route path="/stats" element />
         </Routes>
       </main>
       <h2 className="m-4 text-center">
