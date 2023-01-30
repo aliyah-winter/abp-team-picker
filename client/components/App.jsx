@@ -19,10 +19,10 @@ function App() {
           <Route path="/results" element={<Results />} />
           <Route path="/stats" element={<Stats />} />
         </Routes>
+        <h2 className="m-4 text-center">
+          This website was <strike>not</strike> made by Patrick Ryan
+        </h2>
       </main>
-      <h2 className="m-4 text-center">
-        This website was <strike>not</strike> made by Patrick Ryan
-      </h2>
     </>
   )
 }
