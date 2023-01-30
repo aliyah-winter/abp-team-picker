@@ -12,9 +12,15 @@ function Nav() {
       </section>
       <section className="bg-green-300">
         <nav className="flex justify-center gap-4 px-4 py-2 text-lg">
-          <Link to="/calendar">Calendar</Link>
-          <Link to="/results">Results</Link>
-          <Link to="/stats">Stats</Link>
+          <Link to="/calendar" className="active:text-purple-400">
+            Calendar
+          </Link>
+          <Link to="/results" className="active:text-purple-400">
+            Results
+          </Link>
+          <Link to="/stats" className="active:text-purple-400">
+            Stats
+          </Link>
         </nav>
       </section>
     </>
