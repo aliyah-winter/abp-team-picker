@@ -11,7 +11,7 @@ function Nav() {
           label={'truck'}
           className={'text-4xl md:text-5xl'}
         />
-        <h1 className="mx-4 my-6 text-4xl md:text-5xl font-heading text-center">
+        <h1 className="mx-4 my-6 text-5xl md:text-7xl font-heading text-center">
           Auckland Bike Polo 2023
         </h1>
         <Emoji
