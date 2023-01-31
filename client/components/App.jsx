@@ -1,7 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Teams from './Teams'
 import Nav from './Nav'
 import Calendar from './Calendar'
 import Results from './Results'
@@ -11,11 +10,9 @@ function App() {
   return (
     <>
       <Nav />
-      <main className="flex-col items-center justify-between h-screen">
+      <main className="flex-col items-center justify-between h-screen font-body">
         <Routes>
-          <Route path="/" element />
-          <Route path="/teams" element={<Teams />} />
-          <Route path="/calendar" element={<Calendar />} />
+          <Route path="/" element={<Calendar />} />
           <Route path="/results" element={<Results />} />
           <Route path="/stats" element={<Stats />} />
         </Routes>
