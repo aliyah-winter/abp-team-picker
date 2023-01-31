@@ -9,15 +9,15 @@ function Nav() {
         <Emoji
           symbol={'🚛'}
           label={'truck'}
-          className={'text-4xl md:text-5xl'}
+          className={'text-5xl md:text-5xl'}
         />
-        <h1 className="mx-4 my-6 text-5xl md:text-7xl font-heading text-center">
-          Auckland Bike Polo 2023
+        <h1 className="mx-4 my-6 text-2xl md:text-7xl font-heading text-center">
+          Auckland Bike Polo League 2023
         </h1>
         <Emoji
           symbol={'🚛'}
           label={'truck'}
-          className={'text-4xl md:text-5xl'}
+          className={'text-5xl md:text-5xl'}
         />
       </section>
       <section className="bg-green-300 font-body">

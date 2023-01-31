@@ -5,54 +5,54 @@ function Stats() {
     <>
       <section className="md:flex md:gap-4 md:justify-items-center">
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>Team 1</li>
+          <li>BIBLICAL</li>
           <br></br>
-          <li>WINS</li>
-          <li>LOSSES</li>
+          <li>WINS - 0</li>
+          <li>LOSSES - 0</li>
           <br></br>
-          <li>Player 1</li>
-          <li>Player 2</li>
-          <li>Player 3</li>
+          <li>WILLIAM KING - 0</li>
+          <li>MATTHEW SHORE - 0</li>
+          <li>PATRICK RYAN - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>Team 2</li>
+          <li>HAMbassadors</li>
           <br></br>
-          <li>WINS</li>
-          <li>LOSSES</li>
+          <li>WINS - 0</li>
+          <li>LOSSES - 0</li>
           <br></br>
-          <li>Player 1</li>
-          <li>Player 2</li>
-          <li>Player 3</li>
+          <li>VIVIENNE FRANCES LONG - 0</li>
+          <li>DOMINIC PEAKE - 0</li>
+          <li>GUILIO LAURA - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>Team 3</li>
+          <li>1 OUTZ</li>
           <br></br>
-          <li>WINS</li>
-          <li>LOSSES</li>
+          <li>WINS - 0</li>
+          <li>LOSSES - 0</li>
           <br></br>
-          <li>Player 1</li>
-          <li>Player 2</li>
-          <li>Player 3</li>
+          <li>CAMERON SPICER -0</li>
+          <li>MAX BOOTH - 0</li>
+          <li>DANIEL LOVELACE - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
           <li>Team 4</li>
           <br></br>
-          <li>WINS</li>
-          <li>LOSSES</li>
+          <li>WINS - 0</li>
+          <li>LOSSES - 0</li>
           <br></br>
-          <li>Player 1</li>
-          <li>Player 2</li>
-          <li>Player 3</li>
+          <li>ALYSSA BRUNS - 0</li>
+          <li>TOM BOOTH - 0</li>
+          <li>TOMMY MAC GUINNESS - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
           <li>Team 5</li>
           <br></br>
-          <li>WINS</li>
-          <li>LOSSES</li>
+          <li>WINS - 0</li>
+          <li>LOSSES - 0</li>
           <br></br>
-          <li>Player 1</li>
-          <li>Player 2</li>
-          <li>Player 3</li>
+          <li>ADAM SVEN JOHNSON - 0</li>
+          <li>ROBERT BROOKER - 0</li>
+          <li>MATTHEW RADCLIFFE - 0</li>
         </ul>
       </section>
     </>

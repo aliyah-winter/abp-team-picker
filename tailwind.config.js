@@ -3,7 +3,7 @@ module.exports = {
   content: ['./client/**/*.{html,jsx}'],
   theme: {
     extend: {
-      fontFamily: { heading: ['"Rubik Puddles"'], body: ['"Rubik"'] },
+      fontFamily: { heading: ['"Rubik Mono One"'], body: ['"Rubik"'] },
     },
   },
   plugins: [],
