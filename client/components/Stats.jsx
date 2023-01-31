@@ -5,7 +5,7 @@ function Stats() {
     <>
       <section className="md:flex md:gap-4 md:justify-items-center">
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>BIBLICAL</li>
+          <h1 className="text-xl font-bold">BIBLICAL</h1>
           <br></br>
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
@@ -15,7 +15,7 @@ function Stats() {
           <li>PATRICK RYAN - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>HAMbassadors</li>
+          <h1 className="text-xl font-bold">HAMbassadors</h1>
           <br></br>
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
@@ -25,7 +25,7 @@ function Stats() {
           <li>GUILIO LAURA - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>1 OUTZ</li>
+          <h1 className="text-xl font-bold">1 OUTZ</h1>
           <br></br>
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
@@ -35,7 +35,7 @@ function Stats() {
           <li>DANIEL LOVELACE - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>Team 4</li>
+          <h1 className="text-xl font-bold">TEAM 4</h1>
           <br></br>
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
@@ -45,7 +45,7 @@ function Stats() {
           <li>TOMMY MAC GUINNESS - 0</li>
         </ul>
         <ul className="m-9 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <li>Team 5</li>
+          <h1 className="text-xl font-bold">TEAM 5</h1>
           <br></br>
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
