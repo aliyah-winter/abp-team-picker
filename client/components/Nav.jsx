@@ -9,7 +9,7 @@ function Nav() {
         <Emoji
           symbol={'🚛'}
           label={'truck'}
-          className={'text-5xl md:text-5xl'}
+          className={'text-5xl md:text-8xl'}
         />
         <h1 className="mx-4 my-6 text-2xl md:text-7xl font-heading text-center">
           Auckland Bike Polo League 2023
@@ -17,19 +17,19 @@ function Nav() {
         <Emoji
           symbol={'🚛'}
           label={'truck'}
-          className={'text-5xl md:text-5xl'}
+          className={'text-5xl md:text-8xl'}
         />
       </section>
       <section className="bg-green-300 font-body">
         <nav className="flex justify-center md:justify-evenly gap-4 px-4 py-2 text-md md:text-lg">
           <Link to="/" className="active:text-purple-400">
-            Calendar
+            CALENDAR
           </Link>
           <Link to="/results" className="active:text-purple-400">
-            Results
+            RESULTS
           </Link>
           <Link to="/stats" className="active:text-purple-400">
-            Stats
+            STATS
           </Link>
         </nav>
       </section>
