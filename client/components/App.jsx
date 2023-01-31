@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Nav />
-      <main className="flex-col items-center justify-between h-screen font-body">
+      <main className="flex-col md:flex items-center h-screen font-body">
         <Routes>
           <Route path="/" element={<Calendar />} />
           <Route path="/results" element={<Results />} />
@@ -25,3 +25,5 @@ function App() {
 }
 
 export default App
+
+// "flex-col md:flex items-center justify-between h-screen font-body"
