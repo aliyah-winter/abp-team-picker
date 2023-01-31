@@ -7,7 +7,7 @@ function Nav() {
     <>
       <section className="bg-gradient-to-b from-violet-500 to-fuchsia-500 text-white flex justify-center items-center px-4">
         <Emoji
-          symbol={'🛻'}
+          symbol={'🚛'}
           label={'truck'}
           className={'text-4xl md:text-5xl'}
         />
@@ -15,7 +15,7 @@ function Nav() {
           Auckland Bike Polo 2023
         </h1>
         <Emoji
-          symbol={'🛻'}
+          symbol={'🚛'}
           label={'truck'}
           className={'text-4xl md:text-5xl'}
         />
