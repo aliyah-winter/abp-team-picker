@@ -6,12 +6,12 @@ function Nav() {
   return (
     <>
       <section className="bg-purple-600 text-white flex justify-center items-center">
-        <Emoji symbol={'🛻'} label={'truck'} />
-        <h1 className="mx-4 text-6xl font-heading">ABP 2023</h1>
-        <Emoji symbol={'🛻'} label={'truck'} />
+        <Emoji symbol={'🛻'} label={'truck'} className={'text-2xl'} />
+        <h1 className="mx-4 text-3xl font-heading">Auckland Bike Polo 2023</h1>
+        <Emoji symbol={'🛻'} label={'truck'} className={'text-2xl'} />
       </section>
       <section className="bg-green-300">
-        <nav className="flex justify-center gap-4 px-4 py-2 text-lg">
+        <nav className="flex justify-center gap-4 px-4 py-2 text-md">
           <Link to="/calendar" className="active:text-purple-400">
             Calendar
           </Link>

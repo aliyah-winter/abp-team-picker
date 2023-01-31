@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Emoji({ label, symbol }) {
+function Emoji({ label, symbol, className }) {
   return (
     <span
-      className="emoji text-5xl"
+      className={className}
       role="img"
       aria-label={label ? label : ''}
       aria-hidden={label ? 'false' : 'true'}
