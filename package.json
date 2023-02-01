@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "start": "node",
     "dev": "run-p dev:server dev:client tailwind",
     "dev:server": "nodemon --watch server server/index.js",
     "dev:client": "vite",
