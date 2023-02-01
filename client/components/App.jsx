@@ -17,7 +17,7 @@ function App() {
           <Route path="/stats" element={<Stats />} />
         </Routes>
         <footer className="m-4 text-center">
-          This website was <strike>not</strike> made by Patrick Ryan
+          <br />
         </footer>
       </main>
     </>

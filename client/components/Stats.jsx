@@ -4,7 +4,7 @@ function Stats() {
   return (
     <>
       <section className="md:flex md:gap-4 md:justify-items-center">
-        <ul className="mx-9 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
+        <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
           <h1 className="text-xl font-heading">BIBLICAL</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
@@ -58,7 +58,7 @@ function Stats() {
           <li>MAX BOOTH - 0</li>
           <li>DANIEL LOVELACE - 0</li>
         </ul>
-        <ul className="mx-9 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
+        <ul className="mx-9 md:mx-5 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
           <h1 className="text-xl font-heading">TEAM 4</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
