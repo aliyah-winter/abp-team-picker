@@ -10,7 +10,7 @@
     "watch": "vite build --watch",
     "test": "jest --verbose --watchAll",
     "lint": "eslint --ext .js,.jsx .",
-    "tailwind": "npx tailwindcss -i ./server/public/input.css -o ./server/public/output.css --watch"
+    "tailwind": "npx tailwindcss -o build.css --minify"
   },
   "eslintConfig": {
     "extends": "eda/react",
