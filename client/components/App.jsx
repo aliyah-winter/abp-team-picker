@@ -5,6 +5,7 @@ import Nav from './Nav'
 import Calendar from './Calendar'
 import Results from './Results'
 import Stats from './Stats'
+import Emoji from './Emoji'
 
 function App() {
   return (
@@ -17,7 +18,31 @@ function App() {
           <Route path="/stats" element={<Stats />} />
         </Routes>
         <footer className="m-4 text-center">
-          <br />
+          <Emoji
+            symbol={'🚛'}
+            label={'truck'}
+            className={'text-5xl md:text-8xl'}
+          />
+          <Emoji
+            symbol={'🚛'}
+            label={'truck'}
+            className={'text-5xl md:text-8xl'}
+          />
+          <Emoji
+            symbol={'🚛'}
+            label={'truck'}
+            className={'text-5xl md:text-8xl'}
+          />
+          <Emoji
+            symbol={'🚛'}
+            label={'truck'}
+            className={'text-5xl md:text-8xl'}
+          />
+          <Emoji
+            symbol={'🚛'}
+            label={'truck'}
+            className={'text-5xl md:text-8xl'}
+          />
         </footer>
       </main>
     </>
