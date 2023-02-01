@@ -10,15 +10,15 @@ function App() {
   return (
     <>
       <Nav />
-      <main className="flex-col md:flex items-center h-screen font-body">
+      <main className="flex-col md:flex items-center h-screen font-body select-none">
         <Routes>
           <Route path="/" element={<Calendar />} />
           <Route path="/results" element={<Results />} />
           <Route path="/stats" element={<Stats />} />
         </Routes>
-        <h2 className="m-4 text-center">
+        <footer className="m-4 text-center">
           This website was <strike>not</strike> made by Patrick Ryan
-        </h2>
+        </footer>
       </main>
     </>
   )
