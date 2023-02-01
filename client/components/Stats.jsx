@@ -59,7 +59,7 @@ function Stats() {
           <li>DANIEL LOVELACE - 0</li>
         </ul>
         <ul className="mx-9 md:mx-5 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <h1 className="text-xl font-heading">TEAM 4</h1>
+          <h1 className="text-xl font-heading">MAGIC FINGERS</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
@@ -77,7 +77,7 @@ function Stats() {
           <li>TOMMY MAC GUINNESS - 0</li>
         </ul>
         <ul className="mx-9 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
-          <h1 className="text-xl font-heading">TEAM 5</h1>
+          <h1 className="text-xl font-heading">NOT IN MY LIBRARY!!</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
