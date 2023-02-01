@@ -10,6 +10,14 @@ function Stats() {
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
+          <h2>GOALS SCORED:</h2>
+          <br />
+          <li>WILLIAM KING - 0</li>
+          <li>MATTHEW SHORE - 0</li>
+          <li>PATRICK RYAN - 0</li>
+          <br />
+          <h2>GOALS SAVED:</h2>
+          <br />
           <li>WILLIAM KING - 0</li>
           <li>MATTHEW SHORE - 0</li>
           <li>PATRICK RYAN - 0</li>
@@ -20,6 +28,14 @@ function Stats() {
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
+          <h2>GOALS SCORED:</h2>
+          <br />
+          <li>VIVIENNE FRANCES LONG - 0</li>
+          <li>DOMINIC PEAKE - 0</li>
+          <li>GUILIO LAURA - 0</li>
+          <br />
+          <h2>GOALS SAVED:</h2>
+          <br />
           <li>VIVIENNE FRANCES LONG - 0</li>
           <li>DOMINIC PEAKE - 0</li>
           <li>GUILIO LAURA - 0</li>
@@ -30,6 +46,14 @@ function Stats() {
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
+          <h2>GOALS SCORED:</h2>
+          <br />
+          <li>CAMERON SPICER -0</li>
+          <li>MAX BOOTH - 0</li>
+          <li>DANIEL LOVELACE - 0</li>
+          <br />
+          <h2>GOALS SAVED:</h2>
+          <br />
           <li>CAMERON SPICER -0</li>
           <li>MAX BOOTH - 0</li>
           <li>DANIEL LOVELACE - 0</li>
@@ -40,6 +64,14 @@ function Stats() {
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
+          <h2>GOALS SCORED:</h2>
+          <br />
+          <li>ALYSSA BRUNS - 0</li>
+          <li>TOM BOOTH - 0</li>
+          <li>TOMMY MAC GUINNESS - 0</li>
+          <br />
+          <h2>GOALS SAVED:</h2>
+          <br />
           <li>ALYSSA BRUNS - 0</li>
           <li>TOM BOOTH - 0</li>
           <li>TOMMY MAC GUINNESS - 0</li>
@@ -50,6 +82,14 @@ function Stats() {
           <li>WINS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
+          <h2>GOALS SCORED:</h2>
+          <br />
+          <li>ADAM SVEN JOHNSON - 0</li>
+          <li>ROBERT BROOKER - 0</li>
+          <li>MATTHEW RADCLIFFE - 0</li>
+          <br />
+          <h2>GOALS SAVED:</h2>
+          <br />
           <li>ADAM SVEN JOHNSON - 0</li>
           <li>ROBERT BROOKER - 0</li>
           <li>MATTHEW RADCLIFFE - 0</li>
