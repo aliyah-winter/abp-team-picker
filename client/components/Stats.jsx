@@ -8,6 +8,7 @@ function Stats() {
           <h1 className="text-xl font-heading">BIBLICAL</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
+          <li>DRAWS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <h2>GOALS SCORED:</h2>
@@ -26,6 +27,7 @@ function Stats() {
           <h1 className="text-xl font-heading">HAMbassadors</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
+          <li>DRAWS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <h2>GOALS SCORED:</h2>
@@ -44,6 +46,7 @@ function Stats() {
           <h1 className="text-xl font-heading">1 OUTZ</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
+          <li>DRAWS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <h2>GOALS SCORED:</h2>
@@ -62,6 +65,7 @@ function Stats() {
           <h1 className="text-xl font-heading">MAGIC FINGERS</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
+          <li>DRAWS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <h2>GOALS SCORED:</h2>
@@ -80,6 +84,7 @@ function Stats() {
           <h1 className="text-xl font-heading">NOT IN MY LIBRARY!!</h1>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>WINS - 0</li>
+          <li>DRAWS - 0</li>
           <li>LOSSES - 0</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <h2>GOALS SCORED:</h2>
