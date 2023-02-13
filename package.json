@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "dev": "run-p vite tailwind",
+    "vite": "vite",
     "start": "npx run dev",
     "build": "vite build",
     "watch": "vite build --watch",
