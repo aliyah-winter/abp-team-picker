@@ -4,7 +4,7 @@ function Calendar() {
   return (
     <>
       <section className="md:flex md:justify-items-center">
-        <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100 relative">
+        <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100">
           <h1 className="text-xl font-heading">WEEK 1 - FRIDAY 10 FEB</h1>
           <hr className="bg-purple-300 h-0.5 my-4" />
           <li>18:30 | BIBLICAL vs MAGIC FINGERS</li>
@@ -12,11 +12,11 @@ function Calendar() {
           <li>19:00 | HAMbassadors vs 1 OUTZ</li>
           <hr className="bg-purple-300 h-0.5 my-4" />
           <li>BYE | NOT IN MY LIBRARY!!</li>
-          <img
+          {/* <img
             src="../server/public/Red_X.svg.png"
             alt="red x"
             className="absolute scale-75 -translate-y-64 -translate-x-3 blur-md"
-          />
+          /> */}
         </ul>
         <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100">
           <h1 className="text-xl font-heading">WEEK 2 - FRIDAY 17 FEB</h1>
