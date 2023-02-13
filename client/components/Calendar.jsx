@@ -15,7 +15,7 @@ function Calendar() {
           <img
             src="../server/public/Red_X.svg.png"
             alt="red x"
-            className="absolute scale-80 -translate-y-64 -translate-x-3 blur-md"
+            className="absolute scale-75 -translate-y-64 -translate-x-3 blur-md"
           />
         </ul>
         <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100">
