@@ -18,13 +18,13 @@ function Results() {
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">WEEK 2</h1>
           <hr className="bg-blue-300 h-0.5 my-4" />
-          <li>MAGIC FINGERS</li>
+          <li className="ring-1 rounded-xl">MAGIC FINGERS - 4</li>
           <li>vs</li>
-          <li>NOT IN MY LIBRARY!!</li>
+          <li className="ring-1 rounded-xl">NOT IN MY LIBRARY!! - 4</li>
           <hr className="bg-blue-300 h-0.5 my-4" />
-          <li>1 OUTZ</li>
+          <li>1 OUTZ - 0</li>
           <li>vs</li>
-          <li>BIBLICAL</li>
+          <li className="ring-1 rounded-xl">BIBLICAL - 1</li>
         </ul>
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">WEEK 3</h1>
