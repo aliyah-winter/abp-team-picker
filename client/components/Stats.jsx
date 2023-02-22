@@ -61,7 +61,7 @@ function Stats() {
           <li>SHOTS TAKEN - 5</li>
           <li>SHOOTING % - 20.0%</li>
           <hr className="bg-green-300 h-0.5 my-4" />
-          <li>GUILIO LAURA</li>
+          <li>GIULIO LAURA</li>
           <br />
           <li>GOALS SCORED - 1</li>
           <li>GOALS SAVED - 3</li>
