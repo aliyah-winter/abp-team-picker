@@ -31,9 +31,9 @@ function Results() {
           <hr className="bg-blue-300 h-0.5 my-4" />
           <li>NOT IN MY LIBRARY!!</li>
           <li>vs</li>
-          <li>1 OUTZ</li>
-          <hr className="bg-blue-300 h-0.5 my-4" />
           <li>BIBLICAL</li>
+          <hr className="bg-blue-300 h-0.5 my-4" />
+          <li>MAGIC FINGERS</li>
           <li>vs</li>
           <li>HAMbassadors</li>
         </ul>
@@ -53,9 +53,9 @@ function Results() {
           <hr className="bg-blue-300 h-0.5 my-4" />
           <li>NOT IN MY LIBRARY!!</li>
           <li>vs</li>
-          <li>BIBLICAL</li>
+          <li>1 OUTZ</li>
           <hr className="bg-blue-300 h-0.5 my-4" />
-          <li>MAGIC FINGERS</li>
+          <li>BIBLICAL</li>
           <li>vs</li>
           <li>HAMbassadors</li>
         </ul>

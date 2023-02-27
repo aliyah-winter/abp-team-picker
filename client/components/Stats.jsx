@@ -108,8 +108,8 @@ function Stats() {
           <li>LOSSES - 1</li>
           <br /> <li>TEAM GOALS SCORED - 5</li>
           <li>TEAM GOALS SAVED - 9</li>
-          <li>TEAM SHOTS TAKEN - 17</li>
-          <li>TEAM SHOOTING % - 29.4%</li>
+          <li>TEAM SHOTS TAKEN - 19</li>
+          <li>TEAM SHOOTING % - 26.3%</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>ALYSSA BRUNS</li>
           <br />
