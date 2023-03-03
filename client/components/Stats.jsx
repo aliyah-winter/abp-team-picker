@@ -140,8 +140,8 @@ function Stats() {
           <li>LOSSES - 1</li>
           <br /> <li>TEAM GOALS SCORED - 5</li>
           <li>TEAM GOALS SAVED - 4</li>
-          <li>TEAM SHOTS TAKEN - 19</li>
-          <li>TEAM SHOOTING % - 28.3%</li>
+          <li>TEAM SHOTS TAKEN - 20</li>
+          <li>TEAM SHOOTING % - 25.0%</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>ADAM SVEN JOHNSON</li>
           <br />
@@ -154,7 +154,7 @@ function Stats() {
           <br />
           <li>GOALS SCORED - 3</li>
           <li>GOALS SAVED - 1</li>
-          <li>SHOTS TAKEN - 7</li>
+          <li>SHOTS TAKEN - 8</li>
           <li>SHOOTING % - 42.9%</li>
           <hr className="bg-green-300 h-0.5 my-4" />
           <li>MATTHEW RADCLIFFE</li>
