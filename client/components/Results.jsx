@@ -31,11 +31,11 @@ function Results() {
           <hr className="bg-blue-300 h-0.5 my-4" />
           <li>NOT IN MY LIBRARY!!</li>
           <li>vs</li>
-          <li>BIBLICAL</li>
+          <li className="ring-1 rounded-xl">BIBLICAL</li>
           <hr className="bg-blue-300 h-0.5 my-4" />
           <li>MAGIC FINGERS</li>
           <li>vs</li>
-          <li>HAMbassadors</li>
+          <li className="ring-1 rounded-xl">HAMbassadors</li>
         </ul>
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">WEEK 4</h1>
