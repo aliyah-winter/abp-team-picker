@@ -10,8 +10,8 @@ function Results() {
           <li>1st - BIBLICAL</li>
           <li>2nd - HAMbassadors</li>
           <li>3rd - NOT IN MY LIBRARY!!</li>
-          <li>4th - 1 OUTZ</li>
-          <li>5th - MAGIC FINGERS</li>
+          <li>4th - MAGIC FINGERS</li>
+          <li>5th - 1 OUTZ</li>
         </ul>
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">WEEK 1</h1>
