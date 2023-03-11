@@ -9,9 +9,9 @@ function Results() {
           <hr className="bg-blue-300 h-0.5 my-4" />
           <li>1st - BIBLICAL</li>
           <li>2nd - HAMbassadors</li>
-          <li>3rd - NOT IN MY LIBRARY!!</li>
-          <li>4th - MAGIC FINGERS</li>
-          <li>5th - 1 OUTZ</li>
+          <li>3rd - 1 OUTZ</li>
+          <li>4th - NOT IN MY LIBRARY!!</li>
+          <li>5th - MAGIC FINGERS</li>
         </ul>
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">WEEK 1</h1>
