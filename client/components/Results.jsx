@@ -60,13 +60,13 @@ function Results() {
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">WEEK 5</h1>
           <hr className="bg-blue-300 h-0.5 my-4" />
-          <li>NOT IN MY LIBRARY!!</li>
+          <li>NOT IN MY LIBRARY!! - 1</li>
           <li>vs</li>
-          <li>1 OUTZ</li>
+          <li className="ring-1 rounded-xl">1 OUTZ - 2</li>
           <hr className="bg-blue-300 h-0.5 my-4" />
-          <li>BIBLICAL</li>
+          <li className="ring-1 rounded-xl">BIBLICAL - 2</li>
           <li>vs</li>
-          <li>HAMbassadors</li>
+          <li>HAMbassadors - 1</li>
         </ul>
       </section>
     </>
