@@ -1,9 +1,10 @@
 import React from 'react'
 
 function Stats() {
+  // "md:flex md:gap-4 md:justify-items-center"
   return (
     <>
-      <section className="md:flex md:gap-4 md:justify-items-center">
+      <section className="md:grid md:grid-cols-3">
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-green-500 rounded-xl bg-green-100 text-center">
           <h1 className="text-xl font-heading">BIBLICAL</h1>
           <hr className="bg-green-300 h-0.5 my-4" />

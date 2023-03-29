@@ -3,7 +3,7 @@ import React from 'react'
 function Results() {
   return (
     <>
-      <section className="md:flex md:gap-4 md:justify-items-center">
+      <section className="md:grid md:grid-cols-3">
         <ul className="grow mx-9 my-12 p-4 shadow-xl shadow-blue-500 rounded-xl bg-blue-100 text-center">
           <h1 className="text-xl font-heading">STANDINGS</h1>
           <hr className="bg-blue-300 h-0.5 my-4" />

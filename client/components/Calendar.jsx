@@ -2,8 +2,9 @@ import React from 'react'
 
 function Calendar() {
   return (
+    // "md:flex md:flex-row md:justify-items-center"
     <>
-      <section className="">
+      <section className="md:grid md:grid-cols-3 md:align-items-center">
         <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100">
           <h1 className="text-xl font-heading">WEEK 1 - FRIDAY 10 FEB</h1>
           <hr className="bg-purple-300 h-0.5 my-4" />
