@@ -13,11 +13,6 @@ function Calendar() {
           <li>19:00 | HAMbassadors vs 1 OUTZ</li>
           <hr className="bg-purple-300 h-0.5 my-4" />
           <li>BYE | NOT IN MY LIBRARY!!</li>
-          {/* <img
-            src="../server/public/Red_X.svg.png"
-            alt="red x"
-            className="absolute scale-75 -translate-y-64 -translate-x-3 blur-md"
-          /> */}
         </ul>
         <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100">
           <h1 className="text-xl font-heading">WEEK 2 - FRIDAY 17 FEB</h1>
@@ -54,6 +49,15 @@ function Calendar() {
           <li>19:00 | BIBLICAL vs HAMbassadors</li>
           <hr className="bg-purple-300 h-0.5 my-4" />
           <li>BYE | MAGIC FINGERS</li>
+        </ul>
+        <ul className="mx-9 my-12 px-4 py-6 text-center shadow-xl shadow-purple-500 rounded-xl bg-purple-100">
+          <h1 className="text-xl font-heading">
+            ABP SUMMER LEAGUE - SATURDAY 25 MARCH
+          </h1>
+          <hr className="bg-purple-300 h-0.5 my-4" />
+          <li>DOUBLE ELIMINATION TOURNAMENT</li>
+          <br />
+          <li>10 AM - HOWE STREET COURTS</li>
         </ul>
       </section>
     </>
